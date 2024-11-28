@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Biểu mẫu thông tin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Biểu mẫu thông tin </h1>
+    <form action="submit_index.html" method="get" target="_blank">
+        <label for="name"> Họ và tên </label> <br> 
+        <input type=" text" id="name" name="name" placeholder="Nhập họ và tên của bạn"> <br> 
+        <label for="mail"> Email</label> <br> 
+        <input type="email" name="mail" id="mail" required> <br> 
+        <label for="ps"> Mật khẩu</label> <br> 
+        <input type="password" name="ps" id="ps" minlength="8" required> <br> 
+        <label for="day"> Ngày sinh </label> <br> 
+        <input type="date" name="day" id="day"> <br> <br> 
+        <label for="gioitinh"> Giới tính </label> <br> 
+        <input type="radio" name="gioitinh"  id="Nam" value="Nam">
+        <label for="Nam"> Nam </label>
+        <input type="radio" name="gioitinh" id="Nữ" value="Nữ">
+        <label for="Nữ"> Nữ</label> <br> <br> 
+        <label for="sothich"> Sở thích</label> <br> 
+        <input type="checkbox" name="sothich" id="Đọc sách" value="Đọc sách">
+        <label for="sothich"> Đọc sách</label>
+        <input type="checkbox" name="sothich" id="Du lịch" value="Du lịch ">
+        <label for="Du lịch"> Du lịch</label>
+        <input type="checkbox" name="sothich" id="Nghe nhạc" value="Nghe nhạc">
+        <label for="Nghe nhạc"> Nghe nhạc </label> <br> <br> 
+        <label for="anh"> Tải lên ảnh đại diện </label> <br>
+        <input type="file" accept="image/*"> <br> <br>
+        <input type="submit" class="style" value="Gửi">
+    </form>
+</body>
+</html>
